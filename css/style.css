@@ -42,7 +42,6 @@ h3 {
 	float: left;
 	width: 32%;
 	margin: 1px;
-	height: 97%;
 	/**border-right: 3px solid rgba(68, 68, 68, 0.4);**/
 	
 	
@@ -86,7 +85,6 @@ span {
 }
 
 #co {
-	padding: none;
 }
 
 #addservices {
