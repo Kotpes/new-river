@@ -1,25 +1,94 @@
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, textarea, blockquote {
 	margin: 0; padding: 0; border: 0;
 }
 
 @font-face {
     font-family: Balmoral;
-    src: url(../fonts/shelley.ttf);
+    src: url(../fonts/Allegretto.ttf);
     
 }
+label, input, textarea {
+	margin-left: 66px;
+}
 
-form {
-	opacity:0;
-	display: block;
-	z-index: 1000;
-	width: 300px;
-	height: 300px;
+label {
+	margin-top: 8px;
+}
+
+#send {
+	float: right;
+	margin-top: 20px;
+	margin-right: 120px;
+}
+
+.close{
 	position: fixed;
-	margin: 20% 35%;
-	padding: 39px 19px 14px;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-radius: 4px;
+	float: left;
+	margin-left: 320px;
+	margin-top: 10px;	
+}
+
+
+
+
+textarea {
+	width: 217px;
+	border: 1px solid rgba(190, 190, 190, 0.9);
+}
+
+iframe {
+	z-index: 10000;
+	width: 350px;
+	height: 450px;
+	border-radius: 8px;
+}
+#center {
+	z-index: 12000;
+	position: fixed;
+	width: 100%;
+}
+
+#form {
+	z-index: 10000;
+	width: 350px;
+	height: 450px;
+	margin: 130px auto;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 0px 50px rgba(0,0,0,0.6);	
+	border-radius: 8px;
+}
+@-moz-document url-prefix() {
+	#form {
+	z-index: 100;
+	width: 350px;
+	height: 460px;
+	position: fixed;
+	margin-left: 35%;
+	margin-top: -15%;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 0px 50px rgba(0,0,0,0.6);	
+	border-radius: 8px;
+}
+}
+
+doesnotexist:-o-prefocus, #form {
+	z-index: 100;
+	width: 350px;
+	height: 460px;
+	position: fixed;
+	margin-left: 35%;
+	margin-top: -20%;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 0px 50px rgba(0,0,0,0.6);	
+	border-radius: 8px;
+}
+
+#form th {
+	float: right;
+	margin: 2px;
+}
+#form tr {
+	margin: 5px;
 }
 
 body {
@@ -119,8 +188,8 @@ span {
 	margin-top: 250px;
 	margin-left: 10%;
 	position: absolute;
-	width: 450px;
-	height: 320px;
+	width: 480px;
+	height: 300px;
 	z-index: 15;
 }
 
@@ -134,8 +203,8 @@ span {
 	margin-top: 250px;
 	margin-left: 240%;
 	position: relative;
-	width: 450px;
-	height: 320px;
+	width: 480px;
+	height: 300px;
 	z-index: 15;
 }
 
@@ -148,13 +217,6 @@ thead {
 	display: table-header-group;
 	vertical-align: middle;
 	border-color: inherit;
-}
-
-table {
-	display: table;
-	border-collapse: separate;
-	border-spacing: 2px;
-	border-color: gray;
 }
 
 a {
@@ -415,20 +477,49 @@ header {
 	width: 100%;
 }
 
-	#banner h2 {
-		margin: 130px auto;
-		color: #fff;
-		width: 800px;
-		font-size: 50px; line-height: 60px; text-align: center;
-		text-transform: uppercase;
-		letter-spacing: 5px;
-		text-shadow: 0 3px 5px rgba(0,0,0,0.3);
-	}
+#phone {
+	float: left;
+	position: absolute;
+	left: 1.5%;
+	top: 335px;
+	z-index: 20;
+	color: #fff;
+	width: 650px;
+	font-size: 3.5em; line-height: 1em; text-align: left;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+#heading {
+	float: right;
+	position: absolute;
+	right: 1.5%;
+	top: 300px;
+	z-index: 20;
+	color: #fff;
+	width: 650px;
+	font-size: 3em; line-height: 1em; text-align: right;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+#heading_big {
+	float: right;
+	position: absolute;
+	right: 1.5%;
+	top: 385px;
+	z-index: 20;
+	color: #fff;
+	width: 750px;
+	font-size: 3.5em; line-height: 1em; text-align: right;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
 	
 
 #content {
 	background: transparent repeat center center;
-	height: 1000px;
+	height: 100%;
 	width: 100%; 
 	position: relative;
 	top: 440px;
@@ -464,8 +555,7 @@ header {
 	width: 96%;
 	height: 70%;
 	z-index: 6;		
-	border: 1px solid white;
-	
+	border: 1px solid white;	
 	border-radius: 8px;
 }
 
@@ -797,7 +887,7 @@ header {
 		margin-left: 31%;
 	}
 	#addservices {
-		height: 220px;
+		height: 230px;
 		width: 99.3%;
 	}
 	#add{
@@ -819,6 +909,7 @@ header {
 		margin-left: 26%;
 	}
 	#addservices {
+
 		width: 99.2%;
 	}
 	#add{

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript">
+  </script> 
+ 
+</head>
+<body>
+
+<form class="form-horizontal" name="contactform" method="POST" action="contact-form-handler.php">
+  
+    <legend><p>Забронировать теплоход</p></legend>
+    
+      
+         <label for="name">Ваше Имя</label>
+         
+          <input type="text" name="name" placeholder="Имя" id="name">
+         
+      
+      
+         <label for="number">Контактный номер</label>
+         
+          <input type="text" name="number" placeholder="+7" id="number">
+          
+    
+         <label for="date">Дата</label>
+         
+          <input type="text" name="date" placeholder="10 июля 2013" id="datepicker">
+         
+      
+         <label for="ship">Название теплохода</label>
+         
+          <input type="text" name="ship" placeholder="Максимус" id="ship">
+         
+     
+         <label for="message">Ваши пожелания</label>
+         
+          <textarea  name="message" id="message"></textarea>     
+     
+        <button type="submit" id="send" class="btn btn-warning">Отправить</button>
+
+  
+</form>
+<script type="text/javascript">
+  var frmvalidator  = new Validator("contactform");
+  frmvalidator.addValidation("name","req","Пожалуйста, укажите ваше имя"); 
+  frmvalidator.addValidation("number","req","Пожалуйста, укажите ваш номер телефона"); 
+</script>
+
+</body>
+</html>

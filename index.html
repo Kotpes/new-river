@@ -12,10 +12,31 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/bootstrap-datepicker.ru.js"></script>
+
+
+<!--<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 203px; left: 396px; z-index: 1; display: block;"> -->
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39031351-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 
@@ -33,19 +54,21 @@
 
   <!-- Carousel items -->
   <div id="slideshow_banner">
-    
-     <div id="one"></div>
+
+     <div id="one"></div>     
     
      <div id="three"></div>
     
      <div id="two"></div>
     
-     <div id="four"></div>
+     <div id="four"></div>    
     
     
   </div>                       
       <!--  End of Banner	-->
-
+  <h2 id="phone">(812) 694-29-29<br>8-911-922-35-97</h2>
+  <h2 id="heading">Аренда<br> теплоходов и катеров</h2>
+  <h2 id="heading_big">в Санкт-петербурге</h2>  
 	<div id="content">
 		<div id="maksimus">
       <div id="m"><h1>Максимус</h1></div>
@@ -153,7 +176,7 @@
             <li>Фуршет: 55 гостей</li>             
           </ul>
       </div>  
-      <a class="order"><button href="#myModal" class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>  
+      <a class="order"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>  
 		</div>
 
 
@@ -186,7 +209,7 @@
     <div id="katera">
     <div id="maksum"> 
       <div id="ma"><h1>Максум</h1></div>
-      <div class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></div>
+      <a class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>
       <div id="picture"></div>
        <div id="price_ka"><img src="img/5price.png">
        </div> 
@@ -213,7 +236,7 @@
 
     <div id="katarina">      
       <div id="ka"><h1>Катарина</h1></div>
-      <div class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></div>
+      <a class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>
         <div id="picture"></div>
           <div id="price_ka"><img src="img/8price.png"></div> 
 
@@ -240,7 +263,7 @@
   <div id="teplohodi">
     <div id="neva3">
       <div id="n3"><h1>Нева-3</h1></div>
-      <div class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></div>
+      <a class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>
         <div id="picture"></div>
           <div id="price_te"><img src="img/10price.png"></div>
 
@@ -264,7 +287,7 @@
 
     <div id="moskva178">      
       <div id="m178"><h1>Москва 178</h1></div>
-      <div class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></div>
+      <a class="order1"><button class="btn btn-warning" type="button" style="width: 100%;">ЗАБРОНИРОВАТЬ</button></a>
         <div id="picture"></div>
         <div id="price_te"><img src="img/95price.png"></div> 
 
@@ -287,7 +310,7 @@
     </div>  
   </div>  
 
-<div id="add"><h1>Дополнительные Услуги</h1></div>
+   <div id="add"><h1>Дополнительные Услуги</h1></div>
     <div class="row-fluid" id="addservices">      
        <div class="collumn"><h3>Кейтринг</h3>
         <p id="co">
@@ -309,8 +332,14 @@
         </p>
        </div>
     </div>
-
+  <div id="center">
+    <div id="form">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <iframe src="booking.html" frameborder="0"></iframe>
+    </div>
   </div>
+
+
 
  
 
