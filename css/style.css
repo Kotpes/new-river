@@ -7,7 +7,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
     src: url(../fonts/Allegretto.ttf);
     
 }
-label, input, textarea {
+label, input, textarea, select {
 	margin-left: 66px;
 }
 
@@ -482,7 +482,7 @@ header {
 	position: absolute;
 	left: 1.5%;
 	top: 335px;
-	z-index: 20;
+	z-index: 5;
 	color: #fff;
 	width: 650px;
 	font-size: 3.5em; line-height: 1em; text-align: left;
@@ -495,7 +495,7 @@ header {
 	position: absolute;
 	right: 1.5%;
 	top: 300px;
-	z-index: 20;
+	
 	color: #fff;
 	width: 650px;
 	font-size: 3em; line-height: 1em; text-align: right;
@@ -507,7 +507,7 @@ header {
 	position: absolute;
 	right: 1.5%;
 	top: 385px;
-	z-index: 20;
+	
 	color: #fff;
 	width: 750px;
 	font-size: 3.5em; line-height: 1em; text-align: right;
@@ -526,6 +526,53 @@ header {
 	z-index: 10;
 	border: none;
 	/**box-shadow: 0px -8px 14px rgba(0,0,0,0.2);**/
+}
+
+
+.nice_header {
+	color: #444;
+    font: bold 16px;
+    background: #e4e4e4;
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    border: 1px solid transparent;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    outline: 0;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
+    
+    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
+    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
+    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
+    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
+    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);   
+        
+}
+
+.nice_header_s{
+	color: #444;
+    font: bold 16px;
+    background: #e4e4e4;
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    border: 1px solid transparent;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    outline: 0;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
+    
+    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
+    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
+    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
+    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
+    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
+           
 }
 
 #maksimus {
@@ -559,30 +606,6 @@ header {
 	border-radius: 8px;
 }
 
-#m{
-    color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 8px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);   
-        
-}
-
-
 #lidia {
 	margin-top: 5px;
 	margin-right: 5px;
@@ -615,29 +638,6 @@ header {
 	border: 1px solid white;
 	
 	border-radius: 8px;
-}
-
-#l{
-	color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 8px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
-    
 }
 
 #katera {
@@ -679,31 +679,6 @@ header {
 	border-radius: 8px;
 }
 
-#ma{
-	color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
-           
-}
-
-
-
 #katarina {
 	
 	float: right;
@@ -737,28 +712,6 @@ header {
 	border-radius: 8px;
 }
 
-#ka{
-	color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
-           
-}
 #teplohodi {
 	margin-top: 5px;
 	margin-right: 5px;
@@ -800,28 +753,7 @@ header {
 	border-radius: 8px;
 }
 
-#n3{
-	color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
-           
-}
+
 
 #moskva178 {
 	float: right;
@@ -853,30 +785,6 @@ header {
 	border: 1px solid white;	
 	border-radius: 8px;
 }
-
-#m178{
-	color: #444;
-    font: bold 16px;
-    background: #e4e4e4;
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-    border: 1px solid transparent;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 3px 6px -3px rgba(0,0,0,0.25);
-    
-    background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
-    background-image:    -moz-linear-gradient(#f2f2f2, #e4e4e4 50%),    -moz-linear-gradient(#e4e4e4, #ccc);
-    background-image:     -ms-linear-gradient(#f2f2f2, #e4e4e4 50%),     -ms-linear-gradient(#e4e4e4, #ccc);
-    background-image:      -o-linear-gradient(#f2f2f2, #e4e4e4 50%),      -o-linear-gradient(#e4e4e4, #ccc);
-    background-image:         linear-gradient(#f2f2f2, #e4e4e4 50%),         linear-gradient(#e4e4e4, #ccc);
-           
-}
-
 
 /** media queries**/
 @media screen and (max-width: 1440px) {
