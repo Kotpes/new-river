@@ -328,14 +328,15 @@ h2 {
 }
 
 
-#price_ka {
+.price {
 	float: left;
 	position: relative;
-	width: 55%;
+	max-width: 55%;
 	margin-top: -9%;
-	margin-left: 25%;
+	margin-left: 22%;
 	z-index: 15;
 }
+
 #katera #price_ka {
 	float: left;
 	position: relative;
@@ -374,7 +375,7 @@ h2 {
 #pp {
 	float: left;
 	position: relative;
-	width: 44%;
+	width: 51%;
 	height: 80%;	
 }
 
@@ -382,7 +383,7 @@ h2 {
 	float:right;
 	position: relative;	
 	margin-right: 1%;
-	width: 51%;
+	width: 45%;
 	height: 80%;
 }
 
@@ -580,7 +581,7 @@ header {
 	margin-left: 5px;
 	float: left;
 	background: rgba(255, 255, 255, 0.90);
-	height: 350px;
+	height: 400px;
 	width: 49%; 
 	top: 445px;
 	z-index: 4;
@@ -591,18 +592,17 @@ header {
 	border-right: 1px solid #EAEAEA;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
-#maksimus #picture {
-	background: url(../img/maksimus.jpg);
-	background-size: cover;
+.images {
 	position: relative;
 	float: left;
 	margin-top: 2%;
 	margin-right: 2%;
 	margin-left: 2%;
-	width: 96%;
-	height: 70%;
-	z-index: 6;		
-	border: 1px solid white;	
+	max-width: 96%;
+	max-height: 70%;
+	z-index: 6;	
+}
+.picture {
 	border-radius: 8px;
 }
 
@@ -611,7 +611,7 @@ header {
 	margin-right: 5px;
 	float: right;
 	background: rgba(255, 255, 255, 0.90);
-	height: 350px;
+	height: 400px;
 	width: 49%; 
 	top: 445px;
 	z-index: 6;
@@ -622,22 +622,6 @@ header {
 	border-right: 1px solid #EAEAEA;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 	
-}
-
-#lidia #picture {
-	background: url(../img/lidia.jpg);
-	background-size: cover;
-	position: relative;
-	float: left;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 96%;
-	height: 70%;
-	z-index: 6;		
-	border: 1px solid white;
-	
-	border-radius: 8px;
 }
 
 #katera {
@@ -664,20 +648,7 @@ header {
 		
 }
 
-#maksum #picture {
-	float:left;
-	background: url(../img/maksum.jpg);
-	background-size: cover;
-	position: relative;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 95%;
-	height: 32%;
-	z-index: 6;		
-	border: 1px solid white;	
-	border-radius: 8px;
-}
+
 
 #katarina {
 	
@@ -694,22 +665,6 @@ header {
 	border-left: 1px solid #EAEAEA;
 	border-bottom: 1px solid #EAEAEA;
 	border-right: 1px solid #EAEAEA;
-}
-
-#katarina #picture {
-	float:left;
-	background: url(../img/katarina.jpg);
-	background-size: cover;
-	position: relative;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 95%;
-	height: 32%;
-	z-index: 6;		
-	border: 1px solid white;
-	
-	border-radius: 8px;
 }
 
 #teplohodi {
@@ -737,24 +692,6 @@ header {
 	border-right: 1px solid #EAEAEA;
 }
 
-#neva3 #picture {
-	float:left;
-	background: url(../img/neva3.jpg);
-	background-size: cover;
-	position: relative;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 95%;
-	height: 32%;
-	z-index: 6;		
-	border: 1px solid white;
-	 
-	border-radius: 8px;
-}
-
-
-
 #moskva178 {
 	float: right;
 	background: rgba(255, 255, 255, 0.90);
@@ -771,20 +708,6 @@ header {
 	border-right: 1px solid #EAEAEA;
 }
 
-#moskva178 #picture {
-	float:left;
-	background: url(../img/moskva178.jpg);
-	background-size: cover;
-	position: relative;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 95%;
-	height: 32%;
-	z-index: 6;		
-	border: 1px solid white;	
-	border-radius: 8px;
-}
 
 /** media queries**/
 @media screen and (max-width: 1440px) {
@@ -818,10 +741,10 @@ header {
 	}
 	#addservices {
 
-		width: 99.2%;
+		width: 99.3%;
 	}
 	#add{
-	    width: 99.1;
+	    width: 99.1%;
 	    	
 	}	
 }
