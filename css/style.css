@@ -28,9 +28,6 @@ label {
 	margin-top: 10px;	
 }
 
-
-
-
 textarea {
 	width: 217px;
 	border: 1px solid rgba(190, 190, 190, 0.9);
@@ -186,7 +183,7 @@ span {
 	padding: 2%;
 	background-color: rgba(255, 255, 255, 0.95);
 	margin-top: 250px;
-	margin-left: 10%;
+	margin-left: 5%;
 	position: absolute;
 	width: 480px;
 	height: 300px;
@@ -201,7 +198,7 @@ span {
 	padding: 2%;
 	background-color: rgba(255, 255, 255, 0.95);
 	margin-top: 250px;
-	margin-left: 240%;
+	margin-left: 203%;
 	position: relative;
 	width: 480px;
 	height: 300px;
@@ -232,15 +229,12 @@ a {
 	
 }
 
-
-
 #one{ 
 	background-image: url(../img/banner.jpg);	
 	background-size: cover;
 	width: 100%;
 	height:100%;
-	position: fixed; 
-    
+	position: fixed;     
    
 }
  #two{ 
@@ -337,42 +331,7 @@ h2 {
 	z-index: 15;
 }
 
-#katera #price_ka {
-	float: left;
-	position: relative;
-	width: 40%;
-	margin-top: -7%;
-	margin-left: 29%;
-	z-index: 15;
-}
-
-#price_te {
-	float: left;
-	position: relative;
-	width: 55%;
-	margin-top: -9%;
-	margin-left: 27%;
-	z-index: 15;
-}
-
-#neva3 #price_te {
-	float: left;
-	position: relative;
-	width: 40%;
-	margin-top: -7%;
-	margin-left: 31%;
-	z-index: 15;
-}
-#moskva178 #price_te {
-	float: left;
-	position: relative;
-	width: 40%;
-	margin-top: -7%;
-	margin-left: 29%;
-	z-index: 15;
-}
-
-#pp {
+.pp {
 	float: left;
 	position: relative;
 	width: 51%;
@@ -491,27 +450,27 @@ header {
 	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
 
-#heading {
+#regular {
 	float: right;
 	position: absolute;
 	right: 1.5%;
 	top: 300px;
-	
-	color: #fff;
-	width: 650px;
-	font-size: 3em; line-height: 1em; text-align: right;
-	text-transform: uppercase;		
-	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	font-size: 3em;	
 }
-#heading_big {
+
+#big {
 	float: right;
 	position: absolute;
 	right: 1.5%;
 	top: 385px;
-	
+	font-size: 3.5em;	
+}
+
+.heading {
 	color: #fff;
-	width: 750px;
-	font-size: 3.5em; line-height: 1em; text-align: right;
+	width: 650px;
+	line-height: 1em; 
+	text-align: right;
 	text-transform: uppercase;		
 	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
@@ -714,9 +673,7 @@ header {
 	header{
 	    margin-left: 41.2%;
 	}
-	#addinfo {
-		margin-left: 31%;
-	}
+
 	#addservices {
 		height: 230px;
 		width: 99.3%;

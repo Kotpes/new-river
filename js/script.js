@@ -8,8 +8,8 @@ $(document).ready(function() {
     $('#maksimus #picture').hide().delay(2800).fadeTo(1000, 1).end();
 
     $('#phone').hide().delay(2800).fadeTo(1000, 1).end();
-    $('#heading').hide().delay(2800).fadeTo(1000, 1).end();
-    $('#heading_big').hide().delay(2800).fadeTo(1000, 1).end();
+    $('.heading').hide().delay(2800).fadeTo(1000, 1).end();
+    
     
 
     $('#maksimus').hide().delay(2600).fadeTo(1000, 1).end();
