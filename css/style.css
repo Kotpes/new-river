@@ -435,7 +435,7 @@ header {
 	width: 650px;
 	color: #FFFFFF; text-align: left;
 	text-transform: uppercase;		
-	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
 	font-size: 3.5em; line-height: 1em;
 }
 
@@ -460,7 +460,7 @@ header {
 	color: #fff; 
 	text-align: right;
 	text-transform: uppercase;		
-	text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
 	line-height: 1em;
 }
 
