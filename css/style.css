@@ -175,7 +175,7 @@ span {
 	position: relative;
 	z-index: 15;
 	margin-top: 220px;
-	margin-left: 203%;
+	margin-left: 196%;
 	padding: 2%;
 	width: 480px;
 	height: 300px;
@@ -426,18 +426,6 @@ header {
 	width: 100%;
 }
 
-#phone {
-	position: absolute;
-	top: 335px;
-	left: 1.5%;
-	z-index: 5;
-	float: left;
-	width: 650px;
-	color: #FFFFFF; text-align: left;
-	text-transform: uppercase;		
-	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
-	font-size: 3.5em; line-height: 1em;
-}
 
 #regular {
 	position: absolute;
@@ -463,6 +451,22 @@ header {
 	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
 	line-height: 1em;
 }
+
+#left {
+	position: absolute;
+	top: 335px;
+	left: 1.5%;
+	z-index: 5;
+	float: left;
+	width: 500px;
+	color: #fff; 
+	text-align: left;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
+	font-size: 3.5em; 
+	line-height: 1em;
+}
+
 
 	
 
@@ -726,7 +730,7 @@ header {
 	.order1{
 		margin-left:21px;
 	}
-	#phone {
+	.heading_left {
 		top: 355px;		
 		font-size: 3em; line-height: 0.9em;
 		}

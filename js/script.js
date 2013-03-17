@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('#add').hide().delay(3200).fadeTo(1000, 1).end();
     $('#maksimus #picture').hide().delay(2800).fadeTo(1000, 1).end();
 
-    $('#phone').hide().delay(2800).fadeTo(1000, 1).end();
+    $('.heading_left').hide().delay(2800).fadeTo(1000, 1).end();
     $('.heading').hide().delay(2800).fadeTo(1000, 1).end();
     
     
