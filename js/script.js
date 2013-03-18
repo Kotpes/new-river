@@ -22,13 +22,14 @@ $(document).ready(function() {
        },
        function() {
        $('#addinfo1').fadeTo(150, 0).css('z-index', '15'); 
-       });
+       }); 
     $('#lidia img').hover(function(){
        $('#addinfo2').css('z-index', '26').fadeTo(150, 1);
        },
        function() {
        $('#addinfo2').fadeTo(150, 0).css('z-index', '15'); 
-       });   
+       });
+
     $('#add').click(function() {
       $('#addservices').slideToggle('200');
       });  

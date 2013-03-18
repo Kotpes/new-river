@@ -459,7 +459,7 @@ header {
 	z-index: 5;
 	float: left;
 	width: 500px;
-	color: #fff; 
+	color: #fff !important;
 	text-align: left;
 	text-transform: uppercase;		
 	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
@@ -580,8 +580,7 @@ header {
 	z-index: 6;	
 	float: left;
 	width: 49%;
-	height: 550px;
-		
+	height: 550px;		
 }
 
 
@@ -657,15 +656,7 @@ header {
 
 @media screen and (max-width: 1280px) {
 	
-	#price_m {
-		margin-top: 230px;
-		margin-left: 70px;
-	}
-	#price_l {
-		margin-top: 234px;
-		margin-left: 70px;
-	}
-	li{
+    li{
 		font-size: 1em;
 	}
 
@@ -696,25 +687,11 @@ header {
 	#content {
 		width: 100%;
 	}
-	#price_m {
-		margin-top: 223px;
-		margin-left: 55px;
-		
-	}
-	#price_l {
-		margin-top: 226px;
-		margin-left: 55px;
-	}
+
 	h1{
 		font-size: 2.3em;
 	}
-	#l_info li {
-		font-size: 1em;
-	}
-	#m_info li {
-		font-size: 1em;
-	}
-	
+		
 	h2 {
 		margin-top: 0px;
 		font-size: 1.2em;
@@ -730,12 +707,13 @@ header {
 	.order1{
 		margin-left:21px;
 	}
-	.heading_left {
+	#left {
 		top: 355px;		
 		font-size: 3em; line-height: 0.9em;
 		}
 
 	#regular {
+		right: 0;
 		position: absolute;
 		top: 322px;
 		right: 1.5%;
@@ -744,6 +722,7 @@ header {
 		}
 
 	#big {
+		right:0;
 		position: absolute;
 		top: 390px;
 		right: 1.5%;
@@ -752,7 +731,105 @@ header {
 		}
 }
 
+/** @media screen and (max-width: 1024px) {
+	.heading {
+	width: 650px;
+	color: #fff; 
+	text-align: center;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
+	line-height: 1em;
+	}
 
+	#regular {
+	position: absolute;
+	top: 150px;	
+	float: left;
+	width: 550px;
+	font-size: 3em;	
+	margin: none;
+	}
+
+	#big {
+	position: absolute;
+	top: 235px;	
+	float: left;
+	width: 450px;
+	font-size: 3.5em;	
+	margin: none;
+	}
+
+	#left {
+	position: absolute;
+	top: 325px;
+	left: 130px;
+	z-index: 5;
+	width: 500px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;		
+	text-shadow: 0 3px 5px rgba(0,0,0,0.7);
+	font-size: 3.5em; 
+	line-height: 1em;
+	}
+
+	#maksimus { 
+    
+	width: 757px;
+	}
+
+	#lidia {
+	float: left;
+	margin-left: 5px;	
+	width: 757px;
+		
+	}
+
+	#katera, #teplohodi { 
+	top: 445px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 757px;	
+	}
+
+	#maksum, #katarina {
+	z-index: 6;	
+	width: 49.3%;
+	height: 550px;		
+	}
+
+	#neva3, #moskva178 {
+	z-index: 6;	
+	width: 49.3%;
+	height: 550px;		
+	}
+
+	.order1 {
+	position: absolute;
+	z-index: 20;	
+	float: left;
+	margin-top: 470px;
+	margin-left: 22px;
+	width: 330px;
+	}
+
+	#add {
+		width: 755px;
+		margin-top: 155px;
+	}
+	#addservices {
+		width: 757px;
+		height: 380px;
+	}
+	
+	#addinfo2 {
+		margin-top: 400px;
+		margin-left: 20px;
+	}
+
+
+}
 
 
 
