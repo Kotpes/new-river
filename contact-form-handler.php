@@ -16,10 +16,9 @@ $message = $_POST['message'];
 if( empty($errors))
 {
 	$to = $myemail; 
-	$email_subject = "Contact form submission: $name";
-	$email_body = "You have received a new message. ".
-	" Here are the details:\n Name: $name \n Number: $number \n Date: \n $date
-	\n Ship: \n $ship \n Message: \n $message"; 
+	$email_subject = "Бронирование теплохода от: $name";
+	$email_body = "Поступила новая заявка на бронирование теплохода. ".
+	"\n Имя: $name \n Номер телефона: $number \n На дату: \n $date \n Теплоход: \n $ship \n Пожелания: \n $message"; 
 	
 	$headers = "From: $myemail\n"; 
 	
